@@ -9,7 +9,7 @@ describe('GPS',()=>{
     var srchB=element(By.xpath("//a[@id='ctl00_cphBody_lbtnSearch']"));
     var srchTxt="Ansuman Sahu";
     var id="yashwants";
-    var pswd="user@mindfire";
+    var pswd="user1@mindfire";
 
     it('Login to GPS',()=>{
         uName.sendKeys(id);
